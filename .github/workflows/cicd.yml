@@ -15,5 +15,11 @@ jobs:
      - name: create container
        run: echo "docke ps"
        
-    
+  test:
+    runs-on: ubuntu-latest
+    steps:
+     - name: create container
+       run: echo "docker ps"
+       run: echo "docke ps"
+         
     
