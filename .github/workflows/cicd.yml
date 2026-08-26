@@ -13,13 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: create container
-       run: echo "docke ps"
+       run: echo "docke build"
        
   test:
     runs-on: ubuntu-latest
     steps:
-     - name: container stop
-       run: echo "docker stop"
+     - name: container show
+       run: echo "docker ps"
        run: echo "docke ps"
          
     
