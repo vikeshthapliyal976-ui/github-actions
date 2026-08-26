@@ -16,6 +16,7 @@ jobs:
        run: echo "docke build"
        
   test:
+    needs: [code,build]
     runs-on: ubuntu-latest
     steps:
      - name: container show
