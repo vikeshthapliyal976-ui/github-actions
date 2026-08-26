@@ -8,4 +8,12 @@ jobs:
     steps:
      - name: checkout code
        run: echo "code clone"
+       
+  build:
+    runs-on: ubuntu-latest
+    steps:
+     - name: create container
+       run: echo "docke ps"
+       
+    
     
