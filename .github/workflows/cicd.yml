@@ -18,8 +18,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-     - name: create container
-       run: echo "docker ps"
+     - name: container stop
+       run: echo "docker stop"
        run: echo "docke ps"
          
     
