@@ -20,6 +20,5 @@ jobs:
     steps:
      - name: container show
        run: echo "docker ps"
-       run: echo "docke ps"
          
     
